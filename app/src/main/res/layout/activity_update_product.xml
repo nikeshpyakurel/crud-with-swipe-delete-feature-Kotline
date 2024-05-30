@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".UpdateProduct">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Product"
+        android:textSize="24dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="16dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Product Name"
+        android:layout_margin="12dp"
+        android:padding="12dp"
+        android:id="@+id/updateeditTextName"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Product Desc"
+        android:padding="12dp"
+        android:layout_margin="12dp"
+        android:id="@+id/updateeditTextDesc"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Product Price"
+        android:inputType="number"
+        android:layout_margin="12dp"
+        android:padding="12dp"
+        android:id="@+id/updateeditTextPrice"/>
+    <Button
+        android:id="@+id/updatebutton"
+        android:layout_width="240dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:text="Update Product"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="518dp" />
+
+</LinearLayout>
